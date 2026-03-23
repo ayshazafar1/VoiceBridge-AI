@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # ================= CONFIG =================
-@dataclass (frozen=True)
+@dataclass 
 class AppConfig:
     whisper_model: str
     whisper_language: str
